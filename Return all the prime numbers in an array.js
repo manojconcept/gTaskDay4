@@ -1,4 +1,4 @@
-function isPrime(num) {
+let isPrime = function (num) {
     if (num <= 1) return false;
     if (num <= 3) return true;
 
@@ -11,7 +11,7 @@ function isPrime(num) {
     return true;
 }
 
-function findPrimes(max) {
+let findPrimes = function (max) {
     let primes = [];
     for (let i = 2; i <= max; i++) {
         if (isPrime(i)) {

@@ -1,4 +1,4 @@
-function findMedianSortedArrays(arr1, arr2) {
+let findMedianSortedArrays = function (arr1, arr2) {
     const mergedArray = mergeSortedArrays(arr1, arr2);
 
     const length = mergedArray.length;
@@ -11,7 +11,7 @@ function findMedianSortedArrays(arr1, arr2) {
     }
 }
 
-function mergeSortedArrays(arr1, arr2) {
+let mergeSortedArrays = function (arr1, arr2) {
     const mergedArray = [];
     let i = 0;
     let j = 0;

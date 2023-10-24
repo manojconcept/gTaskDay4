@@ -1,4 +1,4 @@
-function storeNumber(paraMeter) {
+let storeNumber = function (paraMeter) {
     let numberI = [];
     if (paraMeter % 1 !== 0 || typeof paraMeter !== "number") {
         return false;
@@ -11,7 +11,7 @@ function storeNumber(paraMeter) {
 
 let getStoreNumber = storeNumber(1000);
 
-function getPalindromes(paraMeter) {
+let getPalindromes = function (paraMeter) {
     if (paraMeter === false) {
         return `Type only whole number`;
     }
